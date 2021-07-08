@@ -876,7 +876,7 @@ void write_all_entries(entry * p) {
     p = p->next;
   }
   fclose(fp);
-}
+ }
 
 
 void add(char *name, char *phone) {
